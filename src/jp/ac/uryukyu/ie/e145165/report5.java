@@ -8,7 +8,8 @@ public class report5 {
         String str;
         try{
 
-            str = null;
+            str = "3. 14";
+            double value = Double.parseDouble(str);
 
             System.out.println(str.length());
 
