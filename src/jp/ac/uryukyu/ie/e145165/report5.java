@@ -9,15 +9,14 @@ public class report5 {
         try{
 
             str = null;
-            System.out.println(str.length());
 
+            System.out.println(str.length());
 
         }catch(NullPointerException e){
 
-            System.out.println("Error NullPointerException/ by str = "+e.getMessage());
+            System.out.println(" NullPointerException/ by str = "+e.getMessage());
 
         }
-
         throw new NullPointerException("nullの長さは計測できません");
 
     }
